@@ -1,24 +1,25 @@
 <template>
-  <div class="jumbotron-wrapper">
+  <div class="discount-wrapper">
 
   </div>
 </template>
 
 <script>
 export default {
-  name: "Jumbotron",
+  name: "BannerDiscount",
 
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.jumbotron-wrapper{
+.discount-wrapper{
     width:100%;
-    background-image: url('../assets/images/home-background-hero-scaled.jpg');
+    background-image: url('../assets/images/first-order-background-scaled.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     // test
-    height: 1500px;
+    height: 800px;
+    // gradiente con curva
 }
 </style>
