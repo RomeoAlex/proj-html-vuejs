@@ -1,7 +1,7 @@
 <template>
 <div class="wrapper-container categories">
   <div class="categories-wrapper">
-      <button class="primary">VIEW THE FULL MENU</button>
+      <button class="primary">VIEW THE FULL MENU <i class="fas fa-arrow-circle-right"></i></button>
       <h2>Menu Categories</h2>
       <div class="categories-card">
         <FoodCategoriesCard v-for="(food, index)  in foodCategories " :key="index" :details="food"/>

@@ -15,7 +15,7 @@ export default {
     name:'FoodCategoriesCard',
     props: {
         details: Object
-    }
+    },
 }
 </script>
 

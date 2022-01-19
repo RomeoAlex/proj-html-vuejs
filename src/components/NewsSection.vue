@@ -1,7 +1,7 @@
 <template>
 <div class="wrapper-container news">
     <div class="news-wrapper">
-      <button class="primary">READ MORE NEWS</button>
+      <button class="primary">READ MORE NEWS <i class="fas fa-arrow-circle-right"></i></button>
       <h2>Latest News</h2>
       
       <div class="news-card">
@@ -58,6 +58,7 @@ export default {
       float:right;
     }
     .news-card{
+      padding-top: 50px;
       width: 100%;
       margin: auto;
       display: flex;

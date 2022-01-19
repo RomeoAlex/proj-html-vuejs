@@ -24,6 +24,7 @@ export default {
     margin: auto;
     text-align: center;
     color: white;
+    padding-top:100px;
     h2{
         font-size: 50px ;
         padding:20px 0;

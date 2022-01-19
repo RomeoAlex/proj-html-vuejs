@@ -6,7 +6,7 @@
       <div class="popular-cards">
           <DishesCard v-for="(dish, index)  in dishes " :key="index" :details="dish"/>
       </div>
-        <button>START YOUR ORDER</button>
+        <button class="primary">START YOUR ORDER   <i class="fas fa-arrow-circle-right"></i></button>
   </div>
 </div>
 

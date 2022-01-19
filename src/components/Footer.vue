@@ -58,9 +58,8 @@
                         <i :class="social.icon"></i>
                       </a>
                     </span>
-                    
                 </div>
-                <p>Copyright</p>
+                <p>Copyright2012-2020 | Avada Theme by <span>ThemeFusion</span> | All Rights Reserved|Powered by <span>WordPress</span></p>
           </div>
   </div>
 </template>
@@ -226,7 +225,7 @@ export default {
     // test
     height: 1500px;
                 .footer-menus{
-                  padding-top:40px;
+                  padding-top:100px;
                     width: 80%;
                     margin:auto;
                     display: flex;
@@ -275,9 +274,15 @@ export default {
 
                     }
                     .sub-footer{
-                      padding-top: 50px;
+                      padding-top: 100px;
                       text-align: center;
-
+                      p{
+                        padding:30px 0;
+                          color:$GoldenRod;
+                        span{
+                          color: white;
+                        }
+                      }
                     }
                     .social-icons{
                       margin-top: 50px;
@@ -286,6 +291,7 @@ export default {
                         padding:30px;
                         color: white;
                       }
+                      
                     }
 
 }
