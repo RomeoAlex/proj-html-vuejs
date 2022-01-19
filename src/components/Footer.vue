@@ -202,7 +202,7 @@ export default {
                   url:'#',
                 },
                 {
-                  icon:'class="fab fa-youtube',
+                  icon:'fab fa-youtube',
                   url:'#',
                 },
                 {
