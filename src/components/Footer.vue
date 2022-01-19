@@ -50,10 +50,15 @@
 
       </div>
           <div class="sub-footer">
-                <img src="" alt="">
-                <!-- elementp subscribe -->
+                <img src="../assets/images/takeout-logo.png" alt="">
+                <Subscribe />
                 <div class="social-icons">
-                    <!-- v-for su icons array -->
+                    <span v-for="(social , index) in socials" :key="index">
+                      <a :href="social.url">
+                        <i :class="social.icon"></i>
+                      </a>
+                    </span>
+                    
                 </div>
                 <p>Copyright</p>
           </div>
@@ -61,10 +66,12 @@
 </template>
 
 <script>
-
+import Subscribe from "./Subscribe.vue";
 export default {
  
   name: "Footer",
+  components:{Subscribe,
+  }, 
  data: function() {
       return {
           foodCategories: [
@@ -172,8 +179,38 @@ export default {
                         hours: '10AM',
                         hours1:'11PM'
                     },    
-                ],    
-            };
+                ],
+            socials: [
+                {
+                  icon:'fab fa-facebook-f',
+                  url:'#',
+                },
+                {
+                  icon:'fab fa-twitter',
+                  url:'#',
+                },
+                {
+                  icon:'fab fa-instagram',
+                  url:'#',
+                },
+                {
+                  icon:'fab fa-linkedin-in',
+                  url:'#',
+                },
+                {
+                  icon:'',
+                  url:'#',
+                },
+                {
+                  icon:'class="fab fa-youtube',
+                  url:'#',
+                },
+                {
+                  icon:'far fa-envelope',
+                  url:'#',
+                },
+                ],        
+          };
         },
 };
 </script>
@@ -235,6 +272,20 @@ export default {
                       width:100%;}
                       h2{color:$GoldenRod;}
                                         }
+
+                    }
+                    .sub-footer{
+                      padding-top: 50px;
+                      text-align: center;
+
+                    }
+                    .social-icons{
+                      margin-top: 50px;
+                      a{
+                        font-size: 30px;
+                        padding:30px;
+                        color: white;
+                      }
                     }
 
 }
