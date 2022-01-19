@@ -10,4 +10,16 @@ body{
 .wrapper-container{
     width: 70%;
     margin:auto;
+    
+}
+// BUTTONS
+button{
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.primary{
+    background-color: #cc1a26;
+    border: #cc1a26 solid 1px;
+    color:white;
 }
