@@ -1,6 +1,6 @@
 <template>
   <div class="categories-wrapper">
-      <h2>Our Most Popular Dishes</h2>
+      <h2>Menu Categories</h2>
       <div class="categories-card">
           <!-- v-for su data -->
       </div>
