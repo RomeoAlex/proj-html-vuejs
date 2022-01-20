@@ -24,43 +24,43 @@ export default {
           foodCategories: [
                     {        
                         image: 'appetizers-menu-background.jpg',
-                        name: 'APPETIZERS',
+                        name: 'Appetizers',
                         url: '#',
 
                     },
                     {        
                         image: 'burgers-menu-background.jpg',
-                        name: 'BURGERS',
+                        name: 'Burgers',
                         url: '#',
                     },
                     {        
                         image: 'pizza-menu-background.jpg',
-                        name: 'PIZZAS',
+                        name: 'Pizzas',
                         url: '#',
                     },
                     {        
                         image: 'fries-menu-background.jpg',
-                        name: 'FRIES',
+                        name: 'Fries',
                         url: '#',
                     },
                     {        
                         image: 'sides-menu-background.jpg',
-                        name: 'SIDES',
+                        name: 'Sides',
                         url: '#',
                     },
                     {        
                         image: 'desserts-menu-background.jpg',
-                        name: 'DESSERTS',
+                        name: 'Desserts',
                         url: '#',
                     },
                     {        
                         image: 'beverages-menu-background.jpg',
-                        name: 'BEVERAGES',
+                        name: 'Beverages',
                         url: '#',
                     },
                     {        
                         image: 'specials-menu-background.jpg',
-                        name: 'SPECIALS',
+                        name: 'Specials',
                         url: '#',
                     }, 
                 ],

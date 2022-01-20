@@ -47,7 +47,7 @@ background-color: white;
                 .jumbo-footer-description{
                     line-height: 140px;
                     span{
-                        font-size: 25px;
+                        font-size: 20px;
                     }
                     .icon{
                         margin-right:15px;

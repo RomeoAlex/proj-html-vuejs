@@ -38,13 +38,15 @@ export default {
     // gradiente con curva
     .wrapper-container{
       padding-top: 200px;
+      font-weight: 900;
           h3{
+            color:white;
         font-weight: inherit;
         font-size: 50px;
             }
           h2{
             color:$GoldenRod;
-            font-size: 80px;
+            font-size: 90px;
             font-weight: inherit;
           }
     .app-button-wrapper{

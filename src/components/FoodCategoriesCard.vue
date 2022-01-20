@@ -32,8 +32,10 @@ export default {
     .food-single-card{
                 position: relative;
                 span{
-                        font-size: 18px;
+                        font-weight: 700;
+                        font-size: 20px;
                         color:white;
+                        text-transform:uppercase;
                     }  
                 .food-categories-name{
                     position: absolute;

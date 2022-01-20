@@ -17,7 +17,6 @@ export default {
     background-image: url('../assets/images/first-order-background-scaled.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    background: gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1));
     // test
     height: 800px;
     // gradiente con curva

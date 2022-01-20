@@ -122,6 +122,11 @@ export default {
                         current: true,
                     },
                     {
+                        text: 'Alternate Home',
+                        url: '#',
+                        current: false,
+                    },
+                    {
                         text: 'Order Online',
                         url: '#',
                         current: false,
